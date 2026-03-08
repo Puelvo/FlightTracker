@@ -75,8 +75,8 @@ public class FlightScraper
 
 public class TelegramSender
 {
-    private readonly string _token = "8141667388:AAHMrJwExVVEDztAiqHx3ByRSgt8Y7uWfDg";
-    private readonly long _chatId = 836069539;
+    private readonly string _token = "//token";
+    private readonly long _chatId = //telegram id;
 
     public async Task SendImage(string filePath, string caption)
     {
@@ -98,3 +98,4 @@ public class TelegramSender
         }
     }
 }
+
